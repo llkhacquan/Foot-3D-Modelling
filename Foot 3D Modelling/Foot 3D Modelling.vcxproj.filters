@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Torch">
+      <UniqueIdentifier>{db9d9e83-26be-4717-b77d-ebe1ee12137b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tiny_obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="general_function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\Allocator.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\DiskXFile.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\general.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\Mat.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\Mat_operations.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\mx_low_level.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\mx_lu_factor.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\mx_solve.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\Object.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\Perm.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\Perm_operations.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\string_utils.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\Vec.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="torch\XFile.h">
+      <Filter>Torch</Filter>
+    </ClInclude>
+    <ClInclude Include="morph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\Allocator.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\DiskXFile.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\general.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\Mat.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\Mat_operations.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\mx_low_level.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\mx_lu_factor.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\mx_solve.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\Object.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\Perm.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\Perm_operations.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\string_utils.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\Vec.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="torch\XFile.cpp">
+      <Filter>Torch</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
